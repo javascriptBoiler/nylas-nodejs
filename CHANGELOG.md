@@ -2,6 +2,9 @@
 
 ### Unreleased
 
+* [BREAKING] remove `appId` and `appSecret`. Please use `clientId` and `clientSecret`.
+* [BREAKING] remove `Thread.folder`. Please use `Thread.folders`.
+* Migrate to Typescript
 * Fix get contact picture request to correctly use callback, if provided.
 
 ### 4.10.0 / 2020-02-24
